@@ -1,0 +1,17 @@
+﻿Hướng dẫn cài đặt project :
+Bước 1:Cài PHP
+-Link dow PHP
+http://windows.php.net/downloads/releases/php-7.1.10-Win32-VC14-x64.zip
+-Sau khi dowload xong bạn giải nén vào copy vào ổ C đổi tên thư mục thành php.
+-Tiếp theo bạn đổi tên thư mục php.ini-development thành php.ini
+
+Bước 2:Cài IIS của Window
+-Bạn vào Control panel -> Vào Uninstall a program -> Turn on window features on or off (Phía bên trái) -> Tích vào Internet Information Service(Các bạn nhấn vào hết 
+các dấu cộng  tìm các folder chưa tích trong đó) và Internet Information Service Hostable Web Core.
+
+Bước 3:
+-Tìm trên window App Internet Information Services (IIS) Manager 
+-Bên trái có (dấu <)Connections-> bấm để mở rộng bấm tiếp (dấu <)Sites,chuột phải vào Site ấn Add Website
+-Trong cửa số Add Website:Đặt tên Site name:  --> Physical path là đường dẫn đến folder project đã được giải nén trên github 
+--> Port đặt cổng 8999 (tránh trùng các cổng đã cài trên localhost).
+-Bật trình duyệt gõ địa chỉ:localhost:8999.
