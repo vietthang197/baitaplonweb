@@ -1,0 +1,66 @@
+.input_search{
+    width: 60%;
+    color:black;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 3px 0px 5px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.input_search:focus{
+    width: 80%;
+}
+
+
+
+/*-----------------------css body-------------------*/
+.fuck:hover{
+    background-color: #DFE1E6;
+    cursor: pointer;
+}
+.fuck:hover a span{
+    color:white;
+}
+.fuck:hover div{
+    text-align: center;
+}
+.fuck a{
+    font-size: 16px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 4%;
+    color:#696969;
+    background-color: #DCDCDC;
+    height: 100%;
+    padding-left: 0.5%;
+    border: 1px solid #777;
+}
+
+
+
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.gallery:hover{
+    -webkit-transition-delay: 0.01s;
+    background-color:#fdd979;
+
+}
+div.gallery h5{
+    font-size: 13px;
+    color:black;
+}
+
+/*-----------------end css body --------------*/
